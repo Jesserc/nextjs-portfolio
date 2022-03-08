@@ -1,0 +1,395 @@
+$color-1: #030303;
+$color-2: #fff;
+$color-3: #818181;
+
+.project {
+  color: $color-2;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: start;
+
+  .project__content {
+    height: 100%;
+    width: 85%;
+    margin: 0 auto;
+
+    .projectTitle {
+      display: flex;
+      align-items: center;
+      margin-top: 1%;
+      margin-bottom: 1%;
+      h2 {
+        font-size: 2rem;
+      }
+
+      .hr {
+        width: 20rem;
+        height: 2px;
+        background-color: rgb(155, 153, 153);
+        margin-left: 2rem;
+      }
+    }
+
+    .projects__container::-webkit-scrollbar {
+      width: 7px;
+      background-color: rgba(20, 20, 20, 0.808);
+      border-radius: 5px;
+    }
+
+    .projects__container::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      border-radius: 10px;
+    }
+
+    .projects__container::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      --webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+      background-color: rgb(77, 77, 77);
+    }
+
+    .projects__container {
+      width: 100%;
+      height: 62vh;
+      scroll-snap-type: y mandatory;
+      scrollbar-track-color: transparent;
+      overflow-y: scroll;
+      padding-right: 1rem;
+
+      .project__card {
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+        scroll-snap-align: start;
+
+        .project__thumbnail {
+          display: flex;
+          width: 55%;
+          position: absolute;
+          height: 100%;
+
+          .thumb {
+            position: relative;
+            width: 100%;
+            height: 100%;
+
+            div {
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              background-color: #22222294;
+              transition: 0.4s ease-in-out;
+
+              &:hover {
+                background-color: transparent;
+              }
+            }
+          }
+        }
+
+        .project__description {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: flex-end;
+          width: 100%;
+          height: 100%;
+
+          h4 {
+            font-size: 1.75rem;
+          }
+
+          .textSummary {
+            width: 60%;
+            text-align: right;
+            padding: 1.5rem;
+            font-size: 1rem;
+            background-color: #111111;
+            z-index: 1;
+            -webkit-box-shadow: 2px 2px 15px 5px rgba(79, 79, 79, 0.42);
+            box-shadow: 2px 2px 15px 5px rgba(79, 79, 79, 0.42);
+            span {
+              width: 100%;
+            }
+          }
+
+          .links {
+            display: flex;
+            width: 7%;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (min-device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .project {
+    color: $color-2;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+
+    .project__content {
+      height: 100%;
+      width: 85%;
+      margin: 0 auto;
+
+      .projectTitle {
+        display: flex;
+        align-items: center;
+        margin-top: 15%;
+        margin-bottom: 10%;
+        h2 {
+          font-size: 1.1rem;
+        }
+
+        .hr {
+          width: 30%;
+          height: 2px;
+          background-color: rgb(155, 153, 153);
+          margin-left: .5rem;
+        }
+      }
+
+      .projects__container::-webkit-scrollbar {
+        width: 7px;
+        background-color: rgba(20, 20, 20, 0.808);
+        border-radius: 5px;
+      }
+
+      .projects__container::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+      }
+
+      .projects__container::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        --webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+        background-color: rgb(77, 77, 77);
+      }
+
+      .projects__container {
+        width: 100%;
+        height: 62vh;
+        scroll-snap-type: y mandatory;
+        scrollbar-track-color: transparent;
+        overflow-y: scroll;
+        padding-right: 1rem;
+
+        .project__card {
+          display: flex;
+          align-items: center;
+          position: relative;
+          width: 100%;
+          height: 100%;
+          padding: 0;
+          scroll-snap-align: start;
+
+          .project__thumbnail {
+            display: flex;
+            width: 100%;
+            height: 100%;
+
+            .thumb {
+              position: relative;
+              width: 100%;
+              height: 100%;
+
+              div {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background-color: #22222294;
+                transition: 0.4s ease-in-out;
+
+                &:hover {
+                  background-color: transparent;
+                }
+              }
+            }
+          }
+
+          .project__description {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            width: 100%;
+            height: 100%;
+            padding-left: 1rem;
+            position: absolute;
+            background-color:rgba(17, 17, 17, 0.829) ;
+            z-index: 7;
+
+            h4 {
+              font-size: 1.75rem;
+            }
+
+            .textSummary {
+              width: 100%;
+              text-align: left;
+              padding: 0;
+              font-size: 1rem;
+              background-color: #11111100;
+              z-index: 1;
+              box-shadow: none;
+              span {
+                width: 100%;
+              }
+            }
+
+            .links {
+              display: flex;
+              width: 25%;
+              flex-direction: row;
+              justify-content: space-between;
+              align-items: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+ // mobile landscape 
+
+ @media only screen and (min-device-width: 568px) and (min-device-height: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+.project {
+  color: $color-2;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: start;
+
+  .project__content {
+    height: 100%;
+    width: 85%;
+    margin: 0 auto;
+
+    .projectTitle {
+      display: flex;
+      align-items: center;
+      margin-top: 1%;
+      margin-bottom: 1%;
+      h2 {
+        font-size: 1.1rem;
+      }
+
+      .hr {
+        width: 20rem;
+        height: 2px;
+        background-color: rgb(155, 153, 153);
+        margin-left: 2rem;
+      }
+    }
+
+    .projects__container::-webkit-scrollbar {
+      width: 7px;
+      background-color: rgba(20, 20, 20, 0.808);
+      border-radius: 5px;
+    }
+
+    .projects__container::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      border-radius: 10px;
+    }
+
+    .projects__container::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      --webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+      background-color: rgb(77, 77, 77);
+    }
+
+    .projects__container {
+      width: 100%;
+      height: 62vh;
+      scroll-snap-type: y mandatory;
+      scrollbar-track-color: transparent;
+      overflow-y: scroll;
+      padding-right: 1rem;
+
+      .project__card {
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+        scroll-snap-align: start;
+
+        .project__thumbnail {
+          display: flex;
+          width: 55%;
+          position: absolute;
+          height: 100%;
+
+          .thumb {
+            position: relative;
+            width: 100%;
+            height: 100%;
+
+            div {
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              background-color: #22222294;
+              transition: 0.4s ease-in-out;
+
+              &:hover {
+                background-color: transparent;
+              }
+            }
+          }
+        }
+
+        .project__description {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: flex-end;
+          width: 100%;
+          height: 100%;
+
+          h4 {
+            font-size: 1.2rem;
+          }
+
+          .textSummary {
+            width: 60%;
+            text-align: right;
+            padding: .9rem;
+            font-size: .8rem;
+            background-color: #111111;
+            z-index: 1;
+            -webkit-box-shadow: 2px 2px 15px 5px rgba(79, 79, 79, 0.42);
+            box-shadow: 2px 2px 15px 5px rgba(79, 79, 79, 0.151);
+            span {
+              width: 100%;
+            }
+          }
+
+          .links {
+            display: flex;
+            width: 15%;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            
+          }
+        }
+      }
+    }
+  }
+}
+ }

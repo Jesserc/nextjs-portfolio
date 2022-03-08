@@ -1,0 +1,117 @@
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 100%;
+  min-height: 10vh;
+  -webkit-box-shadow: 1px 10px 13px -3px rgba(12, 12, 12, 0.774);
+  box-shadow: 1px 10px 13px -3px rgba(12, 12, 12, 0.788);
+}
+
+.nav div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav div .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 0.15rem solid #fff;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: 600;
+}
+
+.nav div ul {
+  margin-left: auto;
+}
+
+.nav div ul .ulfade {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  list-style: none;
+}
+
+.nav div ul .ulfade li {
+  margin-left: 2.5rem;
+}
+
+.nav div ul .ulfade li a {
+  color: #b0b0b0;
+  font-weight: 600;
+  -webkit-transition: ease 0.7s;
+  transition: ease 0.7s;
+}
+
+.nav div ul .ulfade li a:hover {
+  color: #fff;
+}
+
+.nav div .hamburger {
+  display: none;
+  z-index: 2000;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav div ul {
+    margin-left: 0;
+  }
+  .nav div ul .ulfade {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    position: absolute;
+    background-color: #0a0a0a;
+    width: 75vw;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    padding-left: 25%;
+    z-index: 1000;
+  }
+  .nav div .showSidebar {
+    display: none;
+  }
+  .nav div .hamburger {
+    display: block;
+  }
+}
+/*# sourceMappingURL=Navbar.module.css.map */

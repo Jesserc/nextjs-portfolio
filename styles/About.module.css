@@ -1,0 +1,1062 @@
+@media screen and (min-width: 768px) {
+  .about {
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+  }
+  .about .aboutContent {
+    width: 100%;
+    height: 100%;
+    margin-left: 7rem;
+  }
+  .about .aboutContent .aboutTitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+  .about .aboutContent .aboutTitle h2 {
+    font-size: 2rem;
+  }
+  .about .aboutContent .aboutTitle .hr {
+    width: 20rem;
+    height: 2px;
+    background-color: #9b9999;
+    margin-left: 2rem;
+  }
+  .about .aboutContent .aboutBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text {
+    width: 50%;
+    margin-right: 2rem;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text p {
+    color: #b4b4b4;
+    padding-bottom: 0.6rem;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text ul {
+    list-style-type: none;
+    color: #b4b4b4;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text ul li div {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin-right: 1rem;
+  }
+  .about .aboutContent .aboutBox .image {
+    width: 18rem;
+    height: 100%;
+    position: relative;
+  }
+  .about .aboutContent .aboutBox .image .frame {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    right: -5%;
+    bottom: -5%;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    z-index: 2;
+  }
+  .about .aboutContent .aboutBox .image .frame:hover {
+    right: -3%;
+    bottom: -3%;
+  }
+}
+
+.about {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: start;
+}
+
+.about .aboutContent {
+  width: 100%;
+  height: 100%;
+  margin-left: 7rem;
+}
+
+.about .aboutContent .aboutTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.about .aboutContent .aboutTitle h2 {
+  font-size: 2rem;
+}
+
+.about .aboutContent .aboutTitle .hr {
+  width: 20rem;
+  height: 2px;
+  background-color: #9b9999;
+  margin-left: 2rem;
+}
+
+.about .aboutContent .aboutBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about .aboutContent .aboutBox .aboutBox_text {
+  width: 50%;
+  margin-right: 2rem;
+}
+
+.about .aboutContent .aboutBox .aboutBox_text p {
+  color: #b4b4b4;
+  padding-bottom: 0.6rem;
+}
+
+.about .aboutContent .aboutBox .aboutBox_text ul {
+  list-style-type: none;
+  color: #b4b4b4;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+.about .aboutContent .aboutBox .aboutBox_text ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about .aboutContent .aboutBox .aboutBox_text ul li div {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  margin-right: 1rem;
+}
+
+.about .aboutContent .aboutBox .image {
+  width: 18rem;
+  height: 100%;
+  position: relative;
+}
+
+.about .aboutContent .aboutBox .image .frame {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  right: -5%;
+  bottom: -5%;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  z-index: 2;
+}
+
+.about .aboutContent .aboutBox .image .frame:hover {
+  right: -3%;
+  bottom: -3%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .about {
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+  }
+  .about .aboutContent {
+    width: 100%;
+    height: 100%;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .about .aboutContent .aboutTitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 0.5rem;
+    margin-top: 0.2rem;
+  }
+  .about .aboutContent .aboutTitle h2 {
+    font-size: 1.5rem;
+  }
+  .about .aboutContent .aboutTitle .hr {
+    width: 50%;
+    height: 2px;
+    background-color: #9b9999;
+    margin-left: 1rem;
+  }
+  .about .aboutContent .aboutBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text {
+    width: 100%;
+    margin-bottom: 0.2rem;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text p {
+    font-size: 0.9rem;
+    color: #b4b4b4;
+    padding-bottom: 0.3rem;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text .hide {
+    display: none;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text ul {
+    list-style-type: none;
+    color: #b4b4b4;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: cente;
+        -ms-flex-align: cente;
+            align-items: cente;
+    font-size: 0.85rem;
+    width: 100%;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text ul li div {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin-right: 1rem;
+  }
+  .about .aboutContent .aboutBox .image {
+    position: relative;
+    width: 65%;
+  }
+  .about .aboutContent .aboutBox .image .frame {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    right: -5%;
+    bottom: -5%;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    z-index: 2;
+  }
+  .about .aboutContent .aboutBox .image .frame:hover {
+    right: -3%;
+    bottom: -3%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 568px) {
+  .about {
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+  }
+  .about .aboutContent {
+    width: 100%;
+    height: 100%;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .about .aboutContent .aboutTitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 0.5rem;
+    margin-top: 0.2rem;
+  }
+  .about .aboutContent .aboutTitle h2 {
+    font-size: 1.3rem;
+  }
+  .about .aboutContent .aboutTitle .hr {
+    width: 50%;
+    height: 2px;
+    background-color: #9b9999;
+    margin-left: 1rem;
+  }
+  .about .aboutContent .aboutBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 0.2rem;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text p {
+    font-size: 0.8rem;
+    color: #b4b4b4;
+    padding-bottom: 0.3rem;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text .hide {
+    display: none;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text ul {
+    list-style-type: none;
+    color: #b4b4b4;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: cente;
+        -ms-flex-align: cente;
+            align-items: cente;
+    font-size: 0.85rem;
+    width: 100%;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text ul li div {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin-right: 1rem;
+  }
+  .about .aboutContent .aboutBox .image {
+    position: relative;
+    width: 65%;
+  }
+  .about .aboutContent .aboutBox .image .frame {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    right: -5%;
+    bottom: -5%;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    z-index: 2;
+  }
+  .about .aboutContent .aboutBox .image .frame:hover {
+    right: -3%;
+    bottom: -3%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .about {
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+  }
+  .about .aboutContent {
+    width: 100%;
+    height: 100%;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  .about .aboutContent .aboutTitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 0.5rem;
+    margin-top: 0.2rem;
+  }
+  .about .aboutContent .aboutTitle h2 {
+    font-size: 1.5rem;
+  }
+  .about .aboutContent .aboutTitle .hr {
+    width: 50%;
+    height: 2px;
+    background-color: #9b9999;
+    margin-left: 1rem;
+  }
+  .about .aboutContent .aboutBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text {
+    width: 100%;
+    margin-bottom: 0.2rem;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text p {
+    font-size: 0.9rem;
+    color: #b4b4b4;
+    padding-bottom: 0.3rem;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text .hide {
+    display: none;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text ul {
+    list-style-type: none;
+    color: #b4b4b4;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: cente;
+        -ms-flex-align: cente;
+            align-items: cente;
+    font-size: 0.85rem;
+    width: 100%;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text ul li div {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin-right: 1rem;
+  }
+  .about .aboutContent .aboutBox .image {
+    position: relative;
+    width: 50%;
+  }
+  .about .aboutContent .aboutBox .image .frame {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    right: -3%;
+    bottom: -3%;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    z-index: 2;
+  }
+  .about .aboutContent .aboutBox .image .frame:hover {
+    right: -2%;
+    bottom: -2%;
+  }
+}
+
+@media only screen and (min-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .about {
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+  }
+  .about .aboutContent {
+    width: 100%;
+    height: 100%;
+    margin-left: 1rem;
+  }
+  .about .aboutContent .aboutTitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+  }
+  .about .aboutContent .aboutTitle h2 {
+    font-size: 2rem;
+  }
+  .about .aboutContent .aboutTitle .hr {
+    width: 14rem;
+    height: 2px;
+    background-color: #9b9999;
+    margin-left: 1rem;
+  }
+  .about .aboutContent .aboutBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    position: relative;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text {
+    width: 70%;
+    overflow: scroll;
+    height: 11rem;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text p {
+    color: #b4b4b4;
+    padding-bottom: 0.6rem;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text ul {
+    list-style-type: none;
+    color: #b4b4b4;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text ul li div {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin-right: 1rem;
+  }
+  .about .aboutContent .aboutBox .image {
+    width: 9rem;
+    height: 100%;
+    position: absolute;
+    right: 2%;
+  }
+  .about .aboutContent .aboutBox .image .frame {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-height: 140px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    right: -5%;
+    bottom: 30%;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    z-index: 2;
+  }
+  .about .aboutContent .aboutBox .image .frame:hover {
+    right: -3%;
+    bottom: -3%;
+  }
+}
+
+@media only screen and (min-device-width: 568px) and (min-device-height: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+  .about {
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+  }
+  .about .aboutContent {
+    width: 100%;
+    height: 100%;
+    margin-left: 1rem;
+  }
+  .about .aboutContent .aboutTitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+  }
+  .about .aboutContent .aboutTitle h2 {
+    font-size: 2rem;
+  }
+  .about .aboutContent .aboutTitle .hr {
+    width: 14rem;
+    height: 2px;
+    background-color: #9b9999;
+    margin-left: 1rem;
+  }
+  .about .aboutContent .aboutBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    position: relative;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text {
+    width: 60%;
+    overflow: scroll;
+    margin: 0;
+    height: 11rem;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text p {
+    color: #b4b4b4;
+    padding-bottom: 0.6rem;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text ul {
+    list-style-type: none;
+    color: #b4b4b4;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text ul li div {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin-right: 1rem;
+  }
+  .about .aboutContent .aboutBox .image {
+    width: 11rem;
+    height: 100%;
+    position: absolute;
+    right: 2%;
+  }
+  .about .aboutContent .aboutBox .image .frame {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-height: 140px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    right: -5%;
+    bottom: 30%;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    z-index: 2;
+  }
+  .about .aboutContent .aboutBox .image .frame:hover {
+    right: -3%;
+    bottom: -3%;
+  }
+}
+
+@media only screen and (min-device-width: 640px) and (-webkit-min-device-pixel-ratio: 2) {
+  .about {
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+  }
+  .about .aboutContent {
+    width: 100%;
+    height: 100%;
+    margin-left: 1rem;
+  }
+  .about .aboutContent .aboutTitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+  }
+  .about .aboutContent .aboutTitle h2 {
+    font-size: 2rem;
+  }
+  .about .aboutContent .aboutTitle .hr {
+    width: 14rem;
+    height: 2px;
+    background-color: #9b9999;
+    margin-left: 1rem;
+  }
+  .about .aboutContent .aboutBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    position: relative;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text {
+    width: 70%;
+    overflow: scroll;
+    height: 15rem;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text p {
+    color: #b4b4b4;
+    padding-bottom: 0.6rem;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text ul {
+    list-style-type: none;
+    color: #b4b4b4;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text ul li div {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin-right: 1rem;
+  }
+  .about .aboutContent .aboutBox .image {
+    width: 9rem;
+    height: 100%;
+    position: absolute;
+    right: 2%;
+  }
+  .about .aboutContent .aboutBox .image .frame {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-height: 140px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    right: -5%;
+    bottom: 30%;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    z-index: 2;
+  }
+  .about .aboutContent .aboutBox .image .frame:hover {
+    right: -3%;
+    bottom: -3%;
+  }
+}
+
+@media only screen and (min-device-width: 812px) and (min-device-height: 375px) and (-webkit-min-device-pixel-ratio: 2) {
+  .about {
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+  }
+  .about .aboutContent {
+    width: 100%;
+    height: 100%;
+    margin-left: 1rem;
+  }
+  .about .aboutContent .aboutTitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+  }
+  .about .aboutContent .aboutTitle h2 {
+    font-size: 2rem;
+  }
+  .about .aboutContent .aboutTitle .hr {
+    width: 14rem;
+    height: 2px;
+    background-color: #9b9999;
+    margin-left: 1rem;
+  }
+  .about .aboutContent .aboutBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    position: relative;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text {
+    width: 70%;
+    overflow: scroll;
+    height: 15rem;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text p {
+    color: #b4b4b4;
+    padding-bottom: 0.6rem;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text ul {
+    list-style-type: none;
+    color: #b4b4b4;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text ul li div {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin-right: 1rem;
+  }
+  .about .aboutContent .aboutBox .image {
+    width: 9rem;
+    height: 100%;
+    position: absolute;
+    right: 2%;
+  }
+  .about .aboutContent .aboutBox .image .frame {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-height: 140px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    right: -5%;
+    bottom: 30%;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    z-index: 2;
+  }
+  .about .aboutContent .aboutBox .image .frame:hover {
+    right: -3%;
+    bottom: -3%;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (min-device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .about {
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+  }
+  .about .aboutContent {
+    width: 100%;
+    height: 100%;
+    margin-left: 3rem;
+  }
+  .about .aboutContent .aboutTitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+  .about .aboutContent .aboutTitle h2 {
+    font-size: 2rem;
+  }
+  .about .aboutContent .aboutTitle .hr {
+    width: 20rem;
+    height: 2px;
+    background-color: #9b9999;
+    margin-left: 2rem;
+  }
+  .about .aboutContent .aboutBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text {
+    width: 50%;
+    margin-right: 2rem;
+    height: 100%;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text p {
+    color: #b4b4b4;
+    padding-bottom: 0.6rem;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text ul {
+    list-style-type: none;
+    color: #b4b4b4;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about .aboutContent .aboutBox .aboutBox_text ul li div {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin-right: 1rem;
+  }
+  .about .aboutContent .aboutBox .image {
+    width: 18rem;
+    height: 100%;
+    position: relative;
+  }
+  .about .aboutContent .aboutBox .image .frame {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    right: -5%;
+    bottom: -5%;
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    z-index: 2;
+  }
+  .about .aboutContent .aboutBox .image .frame:hover {
+    right: -3%;
+    bottom: -3%;
+  }
+}
+/*# sourceMappingURL=About.module.css.map */
